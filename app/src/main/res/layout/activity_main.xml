@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:bar="http://schemas.android.com/apk/res-auto"
+    tools:context="com.jokerpeng.demo.ripplebutton.MainActivity">
+
+    <com.jokerpeng.demo.ripplebutton.RippleButton
+        android:id="@+id/rb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        bar:normal_color="#569"
+        bar:checked_color="#999"
+        bar:ripple_color="#557711"
+        android:text="点击我有惊喜"
+        android:textSize="24sp"
+       />
+
+</LinearLayout>
